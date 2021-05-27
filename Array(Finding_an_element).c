@@ -18,11 +18,12 @@ int main()
 			printf("Element Found");
 			break;
 		}
-		else
+	
+	 } 
+	 	if(s==0)
 		{
 			printf("Element not found");
-			break;
+			
 		}
-	 } 
 	 return 0;
 }
