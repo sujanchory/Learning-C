@@ -2,20 +2,18 @@
 int main()
 {
 	int i,arr[100],size,n=0,m=0;
-	printf("Enter Size Of Array");
 	scanf("%d",&size);
 	for(i=0;i<size;i++)
 	{
-		printf("Enter Numbers");
 		scanf("%d",&arr[i]);
 	}
 	for(i=0;i<size;i++)
 	{
-		if(arr[i]%2==1)
+		if(arr[i]%2==0)
 		n++;
 	    else
 	    m++;
 	 }   
-	 printf("Odd=%d\tEven=%d",n,m);	 
+	 printf("odd=%d\teven=%d",m,n); 
 	 return 0;
 }
