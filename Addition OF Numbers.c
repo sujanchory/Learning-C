@@ -11,8 +11,8 @@ int main()
    printf("enter the value of b");
    scanf("%d" ,&b);
    
-   c=a/b;
-   printf("the value of c is %d / %d=%d ,a,b,c");
+   c=a+b;
+   printf("the value of c is %d + %d=%d ,a,b,c");
    return 0;
    
 }
