@@ -6,12 +6,16 @@ int reverse_num(int num)
 	{
 		r=num%10;
 		num=num/10;
-		rev=rev*10+r
+		rev=rev*10+r;
 	}
-	return rev;
+
 }
 int main()
 {
 	int num,rev;
 	scanf("%d",&num);
+	rev=reverse_num(num);
+	printf("%d",rev);
+	
+
 }
